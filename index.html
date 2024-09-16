@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horror Story Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Welcome to the Horror Story</h1>
+        <p id="story-text">Your story begins here...</p>
+
+        <div id="choices">
+            <button class="choice" id="choice1" onclick="makeChoice(1)">Choice 1</button>
+            <button class="choice" id="choice2" onclick="makeChoice(2)">Choice 2</button>
+            <button class="choice" id="choice3" onclick="makeChoice(3)">Choice 3</button>
+            <button class="choice" id="choice4" onclick="makeChoice(4)">Choice 4</button>
+        </div>
+
+        <div id="end-message"></div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
